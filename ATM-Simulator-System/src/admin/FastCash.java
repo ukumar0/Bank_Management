@@ -1,4 +1,4 @@
-package ASimulatorSystem;
+package admin;
 
 import java.awt.*;
 import java.awt.event.*;

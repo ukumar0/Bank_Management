@@ -1,4 +1,4 @@
-package ASimulatorSystem;
+package admin;
 
 import java.sql.*;  
 
