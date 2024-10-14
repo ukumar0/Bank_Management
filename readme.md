@@ -1,10 +1,28 @@
-## MiniStatement Feature
+# Bank Management System
 
-The *MiniStatement* feature in this ATM system allows users to quickly view their recent transactions and account details. Designed for ease and efficiency, the feature provides a summarized statement of all recent withdrawals and deposits. The card number is partially masked for security, displaying only the first and last few digits. 
+Welcome to the **Bank Management System**! This application is designed to provide users with an intuitive and efficient interface for managing their banking needs. Built using **Java AWT** and **Swing**, this system leverages **MySQL JDBC** for seamless database interactions, ensuring your data is handled securely and efficiently.
 
-Through a user-friendly graphical interface built using Java Swing, users can check their account activities at a glance, while all the interactions are securely processed through a connected SQL database.
+## Features
 
-This feature ensures that users stay informed about their financial transactions without the need for a full bank statement, adding convenience and transparency to the ATM experience.
+- **User Authentication**: Secure login and account creation process to ensure that only authorized users can access their accounts.
+- **Account Management**: View account balances, transaction histories, and perform transactions such as deposits and withdrawals with ease.
+- **Mini Statement**: Quick access to recent transactions with clear visibility into your financial activity.
+- **Transaction Records**: Automatic logging of all transactions to provide a complete financial overview.
+
+## Technologies Used
+
+- **Java AWT & Swing**: For creating a rich graphical user interface that enhances user experience.
+- **MySQL JDBC**: For connecting the application to a MySQL database, allowing for secure and efficient data management.
+
+## Getting Started
+
+1. **Installation**: Clone the repository and ensure you have Java and MySQL set up on your machine.
+2. **Database Setup**: Create a MySQL database and import the provided SQL script to set up the required tables.
+3. **Run the Application**: Execute the main class to start the Bank Management System and follow the on-screen instructions.
+
+---
+
+Feel free to customize this text further based on your project's specifics or any additional features you want to highlight!
 
 ## Cloning the ATM System Project
 
@@ -22,12 +40,12 @@ To clone the project and get started with the development or customization of th
    
 2. **Clone the Repository**: Use the following command to clone the project from GitHub:
    ```bash
-   git clone https://github.com/your-username/ATM-System.git
+   git clone https://github.com/ukumar0/Bank_Management
    ```
 
 3. **Navigate to the Project Directory**:
    ```bash
-   cd ATM-System
+   cd Bank_Management/ATMAddition
    ```
 
 4. **Open the Project in Your IDE**:
